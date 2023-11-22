@@ -11,44 +11,44 @@ let availableQuesions = [];
 
 let questions = [
   {
-    question: "When was Fortnite released? ",
-    choice1: "In 2015",
-    choice2: "In 2016",
-    choice3: "In 2017",
-    choice4: "In 2I018",
+    question: "Welke continent heeft het meeste biodiversiteit verlies in 2022?", ",
+    choice1: "Europa/Centraal Azie",
+    choice2: "Afrika",
+    choice3: "Zuid Amerika",
+    choice4: "Noord Amerika",
     answer: 3
   },
   {
     question:
-      "What's the in-game currency ?",
-    choice1: "Robux",
-    choice2: "V-Bucks",
-    choice3: "R6 points",
-    choice4: "Euro's",
+      "Met hoeveel procent is het natuurpopulatie gedaalt sinds 1970?",
+    choice1: "70%",
+    choice2: "69%",
+    choice3: "82%",
+    choice4: "54%",
+    answer: 2 
+  },
+  {
+    question: "Bossen maken onze klimaat stabiel. Met hoeveel graden celsius zou de globale tempratuur omhoog gaan zonder bossen?",
+    choice1: "1",
+    choice2: "0,5",
+    choice3: "0,3",
+    choice4: "1,4",
     answer: 2
   },
   {
-    question: " What's the name of The Cube ?",
-    choice1: "Donald Trump",
-    choice2: "Kevin",
-    choice3: "Ninja",
-    choice4: "Joe mama",
-    answer: 2
-  },
-  {
-    question: " When came the first Battle Pass ?",
-    choice1: "Season 3",
-    choice2: "Season 1",
-    choice3: "Season 0",
-    choice4: "Season 2",
+    question: "Met hoeveel biljoen ton verliest Antarctica ijs? Sinds 2002.",
+    choice1: "158 Biljoen",
+    choice2: "240 Biljoen",
+    choice3: "69 Biljoen",
+    choice4: "150 Biljoen",
     answer: 4
   },
   {
-    question: " How many default skins are when you start the game?",
-    choice1: "2",
-    choice2: "4",
-    choice3: "6",
-    choice4: "8",
+    question: "En met hoeveel biljoen ton verliest Ijsland ijs? Sinds 2002.",
+    choice1: "210 Biljoen",
+    choice2: "150 Biljoen",
+    choice3: "124 Biljoen",
+    choice4: "270 Biljoen",
     answer: 4
   },
   {
