@@ -44,7 +44,7 @@ let questions = [
     answer: 4
   },
   {
-    question: "En met hoeveel biljoen ton verliest Ijsland ijs? Sinds 2002.",
+    question: "Met hoeveel biljoen ton verliest Ijsland ijs? Sinds 2002.",
     choice1: "210 Biljoen",
     choice2: "150 Biljoen",
     choice3: "124 Biljoen",
@@ -52,27 +52,27 @@ let questions = [
     answer: 4
   },
   {
-    question: " What happend to the cube at the end of Season 5",
-    choice1: "It teleported",
-    choice2: "Removed",
-    choice3: "It flew away",
-    choice4: "Destroyed",
+    question: "Hoe veel mensen leven in een regio waar klimaatverandering een grote bedreiging is?",
+    choice1: "3.6 Biljoen",
+    choice2: "2.4 Biljoen",
+    choice3: "1.2 Biljoen",
+    choice4: "4.8 Biljoen",
     answer: 1
   },
   {
-    question: "What is the first vehicle to be added to the game ?",
-    choice1: "Car",
-    choice2: "Plane",
-    choice3: "Shopping cart",
-    choice4: "Golf car",
+    question: "Tussen 2030 en 2050, hoeveel menselijke doden zijn er ongeveer verwacht door klimaatverandering?",
+    choice1: "902.000",
+    choice2: "1.2 Miljoen",
+    choice3: "250.000",
+    choice4: "140.00",
     answer: 3
 },
 {
-  question: "What rarity is the Raptor skin ?",
-  choice1: "Common",
-  choice2: "Green",
-  choice3: "Purple",
-  choice4: "Legendary",
+  question: "Hoeveel procent van hitte gerelateerde doden zijn er door mensen veroorzaakte klimaatverandering?",
+  choice1: "53%",
+  choice2: "19%",
+  choice3: "23%",
+  choice4: "37%",
   answer: 4
 },
 {
