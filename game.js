@@ -11,7 +11,7 @@ let availableQuesions = [];
 
 let questions = [
   {
-    question: "Welke continent heeft het meeste biodiversiteit verlies in 2022?", ",
+    question: "Welke continent heeft het meeste biodiversiteit verlies in 2022?",
     choice1: "Europa/Centraal Azie",
     choice2: "Afrika",
     choice3: "Zuid Amerika",
