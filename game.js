@@ -76,36 +76,36 @@ let questions = [
   answer: 4
 },
 {
-  question: "How much damage is caused from a blue AR head shot ?",
-  choice1: "44",
-  choice2: "55",
-  choice3: "66",
-  choice4: "67",
+  question: "Met hoveeel procent is de concentratie van kooldioxide in de atmosfeer gestegen sinds 1750?",
+  choice1: "24%",
+  choice2: "47%",
+  choice3: "40%",
+  choice4: "19%",
   answer: 3
 },
 
 {
-  question: "What is the rarest Skin in the game ? ",
-  choice1: "Ikonik",
-  choice2: "Renegade Raider",
-  choice3: "Black Knight",
-  choice4: "Galaxy Skin",
+  question: "Wat heeft het grootste impact gehad op de opwarming van de aarde?",
+  choice1: "Landbouwpraktijken",
+  choice2: "Fossiele brandstoffen",
+  choice3: "Ontbossing",
+  choice4: "Industriele processen",
   answer: 2
 },
 {
-  question: "What company made Fortnite ?",
-  choice1: "Ubisoft",
-  choice2: "Rockstar Games",
-  choice3: "Epic Games",
-  choice4: "Nintendo",
+  question: "Welk percentage van de elektriciteit in Nederland wordt momenteel opgewekt uit hernieuwbare energiebronnen?",
+  choice1: "29%",
+  choice2: "76%",
+  choice3: "46%",
+  choice4: "17%",
   answer: 3
 },
 {
-  question: "Which was the last skin in season 4 battle pass ?",
-  choice1: "Omega ",
-  choice2: " Black Knight",
-  choice3: "Carbide",
-  choice4: "Valor ",
+  question: "Hoeveel ton CO2 was er in 2022 uitgestoten in Nederland?",
+  choice1: "158 Megaton",
+  choice2: "240 Megaton",
+  choice3: "83 Megaton",
+  choice4: "150 Megaton",
   answer: 1 
 },
 
