@@ -10,5 +10,13 @@
     color: ;
 }
 #homepagina {
-    border: solid 1px black;
+    border: solid 3px black;
+    height: 75px;
+    text-align: center;
+    font-family: 'Barlow';
+}
+
+.logo {
+   max-width: 10%;
+    float: left;
 }
