@@ -53,13 +53,13 @@
         var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
         // Display the result in the element with id="countdown"
-        document.getElementById("countdown").innerHTML = days + "d " + hours + "h "
+        document.getElementById("countdown").innerHTML = "De open dag begint over: " + days + "d " + hours + "h "
         + minutes + "m " + seconds + "s ";
 
         // If the count down is finished, write some text 
         if (distance < 0) {
             clearInterval(countdownFunction);
-            document.getElementById("countdown").innerHTML = "EXPIRED";
+            document.getElementById("countdown").innerHTML = "De open dag is begonnen of al voorbij!";
         }
     }, 1000);
 </script>

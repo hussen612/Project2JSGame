@@ -92,3 +92,18 @@ nav a:hover {
 #iframe1, #iframe2 {
     flex: 1 0 auto;
 }
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    .logo {
+        max-width: 20%; /* Adjust image size for smaller screens */
+        left: 10px; /* Adjust the distance from the left side for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .logo {
+        max-width: 30%; /* Adjust image size for even smaller screens */
+        left: 5px; /* Adjust the distance from the left side for even smaller screens */
+    }
+}
