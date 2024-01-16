@@ -30,10 +30,10 @@ nav {
     padding: 10px;
     text-align: center;
     font-family: 'Barlow';
-    position: absolute;
+    position: relative;
     border: solid 1px black;
     font-size: 1.3em;
-    width: 38cm;
+  
 }
 
 nav a {
