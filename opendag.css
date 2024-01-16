@@ -63,7 +63,7 @@ nav a:hover {
     font-family: 'Barlow';
     position: relative;
     border: solid 1px black;
-    font-size: 1.3em;
+    font-size: 3em;
   
 }
 
@@ -72,5 +72,23 @@ nav a:hover {
     text-align: center;
     font-family: 'Barlow';
     position: relative;
-    font-size: 1.3em;
+}
+
+
+#maintext2 {
+    padding: 10px;
+    text-align: center;
+    font-family: 'Barlow';
+    position: relative;
+}
+
+#maps-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* adjust this value to change the spacing between iframes */
+    flex-wrap: wrap;
+}
+
+#iframe1, #iframe2 {
+    flex: 1 0 auto;
 }
