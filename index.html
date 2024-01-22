@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="indexstyle.css">
 </head>
 <body>
+    <div id="page-container" class="animate-on-load">
  <div id="homepagina">
     <div id="menu">
         <img class="logo"src="https://www.techniekcollegerotterdam.nl/assets/tcr-logo-a6a45f6beeaae69f30221d89d2a3e4ba1e2696114d5587459bf6a5dcf3603228.svg" alt="">
@@ -44,8 +45,18 @@
         </div>
     </div>
 </div>
+</div>
 <script>
     window.alert("Hallo bezoeker! Welkom bij onze website!");
 </script>
 </body>
+
+<script>
+    window.addEventListener("load", () => {
+        const pageContainer = document.getElementById("page-container");
+        pageContainer.classList.add("animate-on-load");
+    });
+</script>
+
+
 </html>

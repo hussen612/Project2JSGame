@@ -121,6 +121,29 @@ nav a:hover {
     left: 15px; /* Adjust the distance from the left side */
 }
 
+
+/* ANIMATION STYLES */
+
+.animate-on-load {
+  animation: flowIn 1.8s forwards;
+  animation-fill-mode: forwards;
+}
+
+
+@keyframes flowIn {
+  from {
+      transform: translateY(100%);
+      opacity: 0;
+  }
+
+  to {
+      transform: translateY(0);
+      opacity: 1;
+  }
+}
+
+
+
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .logo {

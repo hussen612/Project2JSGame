@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div id="page-container" class="animate-on-load">
     <div id="homepagina">
         <img class="logo"src="https://www.techniekcollegerotterdam.nl/assets/tcr-logo-a6a45f6beeaae69f30221d89d2a3e4ba1e2696114d5587459bf6a5dcf3603228.svg" alt="">
         <h1>Home</h1>
@@ -82,6 +83,14 @@
             duurzamere en veerkrachtigere toekomst te creëren.
         </p>
     </section>
+</div>
 </body>
+
+<script>
+    window.addEventListener("load", () => {
+        const pageContainer = document.getElementById("page-container");
+        pageContainer.classList.add("animate-on-load");
+    });
+</script>
 
 </html>

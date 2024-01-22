@@ -9,3 +9,9 @@ const sendbutton = document.getElementById('sendbutton');
         window.location.reload();
       }
     });
+
+
+    window.addEventListener("load", () => {
+        const pageContainer = document.getElementById("page-container");
+        pageContainer.classList.add("animate-on-load");
+    });

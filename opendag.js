@@ -26,3 +26,5 @@
           document.getElementById("countdown").innerHTML = "De open dag is begonnen of al voorbij!";
       }
   }, 1000);
+
+  

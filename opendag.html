@@ -8,6 +8,7 @@
     <script src="opendag.js"></script>
 </head>
 <body>
+    <div id="page-container" class="animate-on-load">
     <div id="homepagina">
         <div id="menu">
             <img class="logo"src="https://www.techniekcollegerotterdam.nl/assets/tcr-logo-a6a45f6beeaae69f30221d89d2a3e4ba1e2696114d5587459bf6a5dcf3603228.svg" alt="">
@@ -43,8 +44,17 @@
     <a id="maintext2" href="https://www.twitter.com/techniekcollege">Twitter</a>
     <a id="maintext2" href="https://www.facebook.com/techniekcollegerotterdam/">Facebook</a>    
     </div>
-
+    </div>
 
 
 </body>
+
+<script>
+    window.addEventListener("load", () => {
+        const pageContainer = document.getElementById("page-container");
+        pageContainer.classList.add("animate-on-load");
+    });
+</script>
+
+
 </html>
