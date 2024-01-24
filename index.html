@@ -24,7 +24,7 @@
         </nav>  
     </div>
     <div id="welkomsbericht">
-        Goedemiddag bezoeker, welkom op onze website!
+
     </div>
     <div id="titel">
         <h2>Website Informatie</h2>
@@ -57,6 +57,17 @@
         const pageContainer = document.getElementById("page-container");
         pageContainer.classList.add("animate-on-load");
     });
+
+const time = new Date().getHours();
+let groeting;
+if (time < 10) {
+  groeting = "Goedemorgen bezoeker, welkom op onze website!";
+} else if (time < 20) {
+  groeting = "Goedemiddag bezoeker, welkom op onze website!";
+} else {
+  groeting = "Goedenavond bezoeker, welkom op onze website!";
+}
+document.getElementById("welkomsbericht").innerHTML = groeting;
 </script>
 
 
