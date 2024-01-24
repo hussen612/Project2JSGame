@@ -64,6 +64,8 @@ nav a:hover {
     position: relative;
     border: solid 5px black;
     font-size: 3em;
+    background-image: radial-gradient(#527665, #006444);
+    color: #ecffa1;
   
 }
 
