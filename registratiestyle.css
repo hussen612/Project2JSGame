@@ -5,20 +5,28 @@
   
 * {
     font-family: 'Barlow', fallback, sans-serif;
-}
-
-/* Basic reset and styling */
-* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  }
-  
-  body {
-    background-color:#006445;
-    padding: 20px;
-  }
-  
+}
+
+#homepagina {
+  background-image: linear-gradient(#AED4AA, #c1e4bd);
+  height: 100vh;
+  width: 99vw;
+}
+
+#menu {
+  border: solid 1px black;
+  height: 70px;
+  padding: 0.8cm 2cm 1.8cm 2cm;
+  text-align: center;
+  font-family: 'Barlow';
+  background-image: radial-gradient(#006444, #003c29);
+  position: relative; /* Add positioning for the parent div */
+  color: #ecffa1;
+}
+
   /* Form styles */
   #simpleForm {
     max-width: 400px;
@@ -28,6 +36,16 @@
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   }
+
+  #formulier {
+    border: solid 1px black;
+    padding: 1cm;
+    margin: 3cm 0 0 4cm;
+    background-image: linear-gradient(#004831, #AED4AA);
+    box-shadow: #003c29 10px 10px 10px 5px;
+    width: 30cm;
+    height: 11cm;
+  }
   
   .form-group {
     margin-bottom: 15px;
@@ -36,7 +54,8 @@
   label {
     display: block;
     margin-bottom: 5px;
-    color: white;
+    color: #dbff4a;
+    font-size: 1.3em;
   }
   
   input[type="text"],
@@ -77,28 +96,11 @@
     box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-html,
-body {
-    margin: 0;
-    padding: 0;
-}
-
-
-
-#homepagina {
-    border: solid 3px black;
-    height: 75px;
-    text-align: center;
-    font-family: 'Barlow';
-    background-color: #6B9C85;
-    position: relative; /* Add positioning for the parent div */
-}
-
 nav {
-    background-color: #006445;
-    padding: 10px;
-    text-align: center;
-    font-family: 'Barlow';
+  background-image: radial-gradient(#6B9C85, #527665);
+  padding: 10px;
+  font-size: 1.3em;
+  text-align: center;
 }
 
 nav a {
@@ -109,8 +111,9 @@ nav a {
 }
 
 nav a:hover {
-    color: #c2e842;
-    font-family: 'Barlow';
+  color: #c2e842;
+  font-family: 'Barlow';   
+  font-weight: bold;
 }
 
 .logo {
