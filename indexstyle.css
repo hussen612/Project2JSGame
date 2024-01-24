@@ -10,7 +10,7 @@
 
 #homepagina {
     background-image: linear-gradient(#AED4AA, #c1e4bd);
-    height: 180vh;
+    height: 150vh;
     width: 99vw;
 }
 
@@ -44,7 +44,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #c2e842;
+    color: #dbff4a;
     font-family: 'Barlow';   
     font-weight: bold;
 }
@@ -64,6 +64,10 @@ nav a:hover {
     width: 50%;
     padding: 0.5cm;
     font-size: 3em;
+    background-image: radial-gradient(#5e7d69, #415f52);
+    box-shadow: #003c29 5px 5px 5px 5px;
+    border-radius: 2%;
+    color: #ecffa1;
 }
 
 #titel {
@@ -72,6 +76,8 @@ nav a:hover {
     padding: 5px;
     width: 85%;
     text-align: center;
+    background-image: linear-gradient(#006444, #003c29);
+    color: #ecffa1;
     position: absolute;
 }
 
@@ -82,6 +88,8 @@ nav a:hover {
     width: 99%;
     height: 8cm;
     padding: 5px;
+    color: white;
+    background-image: radial-gradient(#5e7d69, #415f52);
 }
 
 #bottom {
@@ -94,6 +102,8 @@ nav a:hover {
     margin: 20cm 0 0 3cm;
     width: 5cm;
     padding: 15px;
+    color: #ecffa1;
+    background-image: linear-gradient(#006444, #003c29);
 }
 
 #titel3 {
@@ -102,6 +112,8 @@ nav a:hover {
     margin: 20cm 0 0 20cm;
     width: 5cm;
     padding: 15px;
+    color: #ecffa1;
+    background-image: linear-gradient(#006444, #003c29);
 }
 
 #kopje1 {
@@ -110,6 +122,8 @@ nav a:hover {
     margin: 21.5cm 0 0 3cm; 
     width: 42%;
     height: 6cm;
+    background-image: radial-gradient(#5e7d69, #415f52);
+    color: white;
 }
 
 #kopje2 {
@@ -118,6 +132,8 @@ nav a:hover {
     margin: 21.5cm 0 0 20cm; 
     width: 42%;
     height: 6cm;
+    background-image: radial-gradient(#5e7d69, #415f52);
+    color: white;
 }
 
 

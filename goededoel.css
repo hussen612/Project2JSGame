@@ -5,7 +5,7 @@
 
 #homepagina {
     background-image: linear-gradient(#AED4AA, #c1e4bd);
-    height: 180vh;
+    height: 160vh;
     width: 99vw;
 }
 
@@ -34,7 +34,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #c2e842;
+    color: #dbff4a;
     font-family: 'Barlow';   
     font-weight: bold;
 }
