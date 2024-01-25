@@ -89,15 +89,15 @@
     });
 
 const time = new Date().getHours();
-let groeting;
+let begroeting;
 if (time < 10) {
-  groeting = "Goedemorgen bezoeker, welkom op onze website!";
+  begroeting = "Goedemorgen bezoeker, welkom op onze website!";
 } else if (time < 20) {
-  groeting = "Goedemiddag bezoeker, welkom op onze website!";
+  begroeting = "Goedemiddag bezoeker, welkom op onze website!";
 } else {
-  groeting = "Goedenavond bezoeker, welkom op onze website!";
+  begroeting = "Goedenavond bezoeker, welkom op onze website!";
 }
-document.getElementById("welkomsbericht").innerHTML = groeting;
+document.getElementById("welkomsbericht").innerHTML = begroeting;
 </script>
 
 
