@@ -58,6 +58,7 @@ nav a:hover {
 }
 
 #welkomsbericht {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 2cm 0 0 1cm;
@@ -71,6 +72,7 @@ nav a:hover {
 }
 
 #titel {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     margin: 8cm 0 0 3cm;
     padding: 5px;
@@ -82,6 +84,7 @@ nav a:hover {
 }
 
 #info {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 20px 0 0 -6px;
@@ -95,10 +98,12 @@ nav a:hover {
 }
 
 #bottom {
+    font-family: 'Barlow'; 
     text-align: center;
 }
 
 #titel2 {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 20cm 0 0 3cm;
@@ -109,6 +114,7 @@ nav a:hover {
 }
 
 #titel3 {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 20cm 0 0 20cm;
@@ -119,6 +125,7 @@ nav a:hover {
 }
 
 #kopje1 {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 21.5cm 0 0 3cm; 
@@ -131,6 +138,7 @@ nav a:hover {
 }
 
 #kopje2 {
+    font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
     margin: 21.5cm 0 0 20cm; 
