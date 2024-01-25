@@ -97,6 +97,45 @@ nav a:hover {
     flex: 1 0 auto;
 }
 
+img {
+    width: 80px;
+}
+
+#yt {
+    border: solid 1x black;
+    width: 75px;
+    margin: 3px 0 5cm 14.9cm;
+    position: absolute;
+}
+
+#x {
+    width: 95px;
+    margin: 7px 0 5cm 16.4cm;
+    position: absolute;
+    border: solid 1x black;
+}
+
+#ig {
+    margin: 0 0 7cm 18.3cm;
+    position: absolute;
+    border: solid 1x black;
+}
+
+
+#in {
+    width: 70px;
+    margin: 4px 0 4.5cm 20.2cm;
+    position: absolute;
+    border: solid 1x black;
+}
+
+#fb {
+    margin: -2px 0 0 21.8cm;
+    position: absolute;
+    border: solid 1x black;
+}
+
+
 
 /* ANIMATION STYLES */
 
