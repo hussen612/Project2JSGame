@@ -61,7 +61,7 @@ nav a:hover {
     font-family: 'Barlow'; 
     border: solid 1px black;
     position: absolute;
-    margin: 2cm 0 0 1cm;
+    margin: 2cm 0 0 3cm;
     width: 50%;
     padding: 0.5cm;
     font-size: 3em;
@@ -69,6 +69,10 @@ nav a:hover {
     box-shadow: #003c29 5px 5px 5px 5px;
     border-radius: 2%;
     color: #ecffa1;
+}
+
+#textinfo {
+    padding: 0 10cm 0 0;
 }
 
 #titel {
@@ -130,7 +134,7 @@ nav a:hover {
     position: absolute;
     margin: 21.5cm 0 0 3cm; 
     width: 38%;
-    height: 8cm;
+    height: 8.5cm;
     background-image: radial-gradient(#5e7d69, #415f52);
     color: white;
     padding: 20px;
@@ -143,7 +147,7 @@ nav a:hover {
     position: absolute;
     margin: 21.5cm 0 0 20cm; 
     width: 39%;
-    height: 8cm;
+    height: 8.5cm;
     background-image: radial-gradient(#5e7d69, #415f52);
     color: white;
     padding: 20px;
