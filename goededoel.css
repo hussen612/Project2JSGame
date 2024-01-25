@@ -1,3 +1,9 @@
+@font-face {
+    font-family: 'Barlow';
+    src: url('./font/Barlow/Barlow-Medium.ttf');
+}
+
+
 * {
     padding: 0;
     margin: 0;
@@ -5,7 +11,7 @@
 
 #homepagina {
     background-image: linear-gradient(#AED4AA, #c1e4bd);
-    height: 160vh;
+    height: 180vh;
     width: 99vw;
 }
 
@@ -49,11 +55,13 @@ section {
     background-image: linear-gradient(#6b9d7b, #cfeacb);
     box-shadow: #003c29 10px 5px 10px 5px;
     position: absolute;
+    font-family: 'Barlow';
 }
 
 h2 {
     color: #006445;
     padding-top: 30px;
+    font-family: 'Barlow';
 }
 
 button {
