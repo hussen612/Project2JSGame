@@ -1,6 +1,6 @@
 @font-face {
-    font-family: 'Barlow';  /* you can choose any name */
-    src: url('./font/Barlow/Barlow-Medium.ttf'); /* path to your font file */
+    font-family: 'Barlow';  
+    src: url('./font/Barlow/Barlow-Medium.ttf'); 
 }
   
 * {
@@ -9,6 +9,8 @@
     margin: 0;
     padding: 0;
 }
+
+/* Index */
 
 #homepagina {
   background-image: linear-gradient(#AED4AA, #c1e4bd);
@@ -23,7 +25,7 @@
   text-align: center;
   font-family: 'Barlow';
   background-image: radial-gradient(#006444, #003c29);
-  position: relative; /* Add positioning for the parent div */
+  position: relative; 
   color: #ecffa1;
 }
 
@@ -93,7 +95,7 @@
 }
 
 * {
-    box-sizing: border-box; /* Include padding and border in element's total width and height */
+    box-sizing: border-box; 
 }
 
 nav {
@@ -118,10 +120,10 @@ nav a:hover {
 
 .logo {
     max-width: 10%;
-    position: absolute; /* Position the image absolutely within the parent div */
-    top: 50%; /* Move the image to the middle vertically */
-    transform: translateY(-50%); /* Adjust to center the image vertically */
-    left: 15px; /* Adjust the distance from the left side */
+    position: absolute; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    left: 15px; 
 }
 
 
@@ -150,14 +152,14 @@ nav a:hover {
 /* Responsive styles */
 @media only screen and (max-width: 768px) {
     .logo {
-        max-width: 20%; /* Adjust image size for smaller screens */
-        left: 10px; /* Adjust the distance from the left side for smaller screens */
+        max-width: 20%; 
+        left: 10px; 
     }
 }
 
 @media only screen and (max-width: 480px) {
     .logo {
-        max-width: 30%; /* Adjust image size for even smaller screens */
-        left: 5px; /* Adjust the distance from the left side for even smaller screens */
+        max-width: 30%; 
+        left: 5px; 
     }
 }
